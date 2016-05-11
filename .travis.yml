@@ -8,6 +8,6 @@ services:
 install:
     - composer install
 before_script:
-    - mysql -uroot -e "create database test_db"
-    - mysql -uroot test_db < db/ddl_mysql.sql
+    - mysql -uroot -e "create database zftest"
+    - mysql -uroot zftest < db/ddl_mysql.sql
 script: vendor/bin/phpunit
