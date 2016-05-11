@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<dataset>
+	<zftest id="1" name="山田" number="765" deci_number="0.999"/>
+	<zftest name="本田" number="765" deci_number="0.999"/>
+</dataset>

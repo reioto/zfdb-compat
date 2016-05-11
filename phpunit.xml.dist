@@ -1,0 +1,17 @@
+<phpunit bootstrap="tests/Bootstrap.php"
+         colors="true" >
+    <php>
+        <ini name="display_errors" value="1" />
+	<env name="driver" value="Pdo_Mysql" />
+<!--	<env name="hostname" value="localhost" /> -->
+<!--	<env name="database" value="testdb" /> -->
+<!--	<env name="username" value="username" /> -->
+<!--	<env name="password" value="password" /> -->
+<!--	<env name="charset" value="utf8" /> -->
+     </php>
+    <testsuites>
+        <testsuite name="lib tests" suffix=".php">
+            <directory>tests/src</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
