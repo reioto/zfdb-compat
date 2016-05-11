@@ -2,7 +2,7 @@
          colors="true" >
     <php>
         <ini name="display_errors" value="1" />
-	<env name="driver" value="Pdo_Mysql" />
+<!--	<env name="driver" value="Pdo_Mysql" /> -->
 <!--	<env name="hostname" value="localhost" /> -->
 <!--	<env name="database" value="testdb" /> -->
 <!--	<env name="username" value="username" /> -->

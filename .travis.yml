@@ -1,0 +1,13 @@
+language: php
+php:
+    - '5.4'
+    - '5.6'
+    - '7.0'
+services:
+    - mysql
+install:
+    - composer install
+before_script:
+    - mysql -uroot -e "create database test_db"
+    - mysql -uroot < db/ddl_mysql.sql
+script: vendor/bin/phpunit
